@@ -76,16 +76,18 @@ main>p {
 
 .p1>p {
     padding-left: 10px;
+    padding-right: 10px;
     background-color: rgba(0, 0, 0, 0.384);
-    width: 500px;
+    width: fit-content;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
 
 .p2>p {
     padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.384);
-    width: 500px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: fit-content;
     color: white;
     
 }
@@ -96,4 +98,5 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     color: white;
+    font-size: 80%;
 }
